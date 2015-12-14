@@ -43,11 +43,24 @@ h6 {
     margin: 0 auto;
 }
 
+#img-circle {
+    border-radius: 50%;
+    border: dotted;
+    
+}
+
 header {
     text-align: center;
-    color: #fff;
+    color: #fff;.img-circle {
+    border-radius: 50%;
+}
     background: #6F6E70;
     opacity: 80%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .container {
