@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/master.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/codextended/Sources/Codextended/Codextended.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/Codextended.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/Codextended.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/Codextended~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/Codextended.swiftdeps"
+  }
+}

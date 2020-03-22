@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SJ", ""]
+- ["Sh", ""]
+- ["SJ", "isSameLineWhitespace"]
+- ["Sh", "boldItalicStyleMarkers"]
+- ["Sh", "allStyleMarkers"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "Bool"
+- "Character"
+- "ExtendedGraphemeClusterType"
+- "Self"
+- "Set"
+- "StringLiteralType"
+- "UnicodeScalarType"
+depends-member:
+- ["SJ", "Bool"]
+- !private ["SJ", "isNewline"]
+- ["SJ", "isSameLineWhitespace"]
+- !private ["SJ", "isWhitespace"]
+- ["Sl", "Self"]
+- ["Sl", "boldItalicStyleMarkers"]
+- ["Sl", "union"]
+- !private ["SL", "isNewline"]
+- !private ["SL", "isWhitespace"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- ["s28CustomDebugStringConvertibleP", "boldItalicStyleMarkers"]
+- !private ["s28CustomDebugStringConvertibleP", "isNewline"]
+- !private ["s28CustomDebugStringConvertibleP", "isWhitespace"]
+- ["s28CustomDebugStringConvertibleP", "union"]
+- ["s17CustomReflectableP", "Self"]
+- ["s17CustomReflectableP", "boldItalicStyleMarkers"]
+- !private ["s17CustomReflectableP", "isNewline"]
+- !private ["s17CustomReflectableP", "isWhitespace"]
+- ["s17CustomReflectableP", "union"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "boldItalicStyleMarkers"]
+- !private ["s23CustomStringConvertibleP", "isNewline"]
+- !private ["s23CustomStringConvertibleP", "isWhitespace"]
+- ["s23CustomStringConvertibleP", "union"]
+- ["Se", "Self"]
+- ["Se", "boldItalicStyleMarkers"]
+- ["Se", "union"]
+- ["SE", "Self"]
+- ["SE", "boldItalicStyleMarkers"]
+- ["SE", "union"]
+- ["SQ", "Self"]
+- ["SQ", "boldItalicStyleMarkers"]
+- !private ["SQ", "isNewline"]
+- !private ["SQ", "isWhitespace"]
+- ["SQ", "union"]
+- ["s25ExpressibleByArrayLiteralP", "Self"]
+- ["s25ExpressibleByArrayLiteralP", "boldItalicStyleMarkers"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isNewline"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isNewline"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isWhitespace"]
+- ["SH", "Self"]
+- ["SH", "boldItalicStyleMarkers"]
+- !private ["SH", "isNewline"]
+- !private ["SH", "isWhitespace"]
+- ["SH", "union"]
+- !private ["s25LosslessStringConvertibleP", "isNewline"]
+- !private ["s25LosslessStringConvertibleP", "isWhitespace"]
+- ["ST", "Self"]
+- ["ST", "boldItalicStyleMarkers"]
+- ["ST", "union"]
+- ["Sh", "Character"]
+- ["Sh", "Self"]
+- ["Sh", "allStyleMarkers"]
+- ["Sh", "boldItalicStyleMarkers"]
+- ["Sh", "union"]
+- ["s10SetAlgebraP", "Self"]
+- ["s10SetAlgebraP", "boldItalicStyleMarkers"]
+- ["s10SetAlgebraP", "union"]
+- !private ["s20TextOutputStreamableP", "isNewline"]
+- !private ["s20TextOutputStreamableP", "isWhitespace"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isNewline"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isWhitespace"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isNewline"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isNewline"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isWhitespace"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Self"]
+- ["s35_HasCustomAnyHashableRepresentationP", "boldItalicStyleMarkers"]
+- ["s35_HasCustomAnyHashableRepresentationP", "union"]
+depends-nominal:
+- "SJ"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStddef.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/AssertionReporting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/KeyPath.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/System.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Random.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/UnicodeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/FoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/GlobalObjects.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/HeapObject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Target.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdint.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RefCount.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Visibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/module.modulemap"
+interface-hash: "f925590b1226f2126b1f1bd755931faf"

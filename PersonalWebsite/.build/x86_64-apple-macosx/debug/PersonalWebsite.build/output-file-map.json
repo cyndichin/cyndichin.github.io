@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/master.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/MysticTheme/Theme+Mystic.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/Theme+Mystic.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/Theme+Mystic.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/Theme+Mystic~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/Theme+Mystic.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/MysticTheme/WebsiteDateFormatter.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteDateFormatter.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteDateFormatter.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteDateFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteDateFormatter.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/MysticTheme/WebsiteHTMLFactory.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteHTMLFactory.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteHTMLFactory.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteHTMLFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/MysticTheme/WebsiteHTMLFactory.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Footer.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Footer.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Footer.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Footer~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Footer.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Grid.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Grid.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Grid.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Grid~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Grid.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Head.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Head.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Head.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Head~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Head.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Icon.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Icon.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Icon.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Icon~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Icon.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Page.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Page.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Page.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Page~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Page.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+PageContent.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PageContent.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PageContent.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PageContent~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PageContent.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Post.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Post.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Post.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Post~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Post.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+PostExcerpt.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PostExcerpt.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PostExcerpt.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PostExcerpt~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+PostExcerpt.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Posts.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Posts.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Posts.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Posts~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Posts.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+Sidebar.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Sidebar.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Sidebar.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Sidebar~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+Sidebar.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/Nodes/Node+TagList.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+TagList.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+TagList.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+TagList~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/Nodes/Node+TagList.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/connections.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/connections.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/connections.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/connections~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/connections.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/main.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/main.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/main.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/main.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/models/Project.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/models/Project.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/models/Project.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/models/Project~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/models/Project.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/Sources/PersonalWebsite/website/MainWebsite.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/website/MainWebsite.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/website/MainWebsite.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/website/MainWebsite~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/PersonalWebsite.build/website/MainWebsite.swiftdeps"
+  }
+}

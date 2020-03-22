@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "73afcd488405c04955c8eedbd0ed3d72"
+build_time: [1582603732, 209035000]
+inputs:
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/shellout/Sources/ShellOut.swift": [1581371248, 941780763]

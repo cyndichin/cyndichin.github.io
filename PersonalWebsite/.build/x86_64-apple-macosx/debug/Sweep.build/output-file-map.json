@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/master.swiftdeps"
+  },
+  "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/sweep/Sources/Sweep/Sweep.swift": {
+    "dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/Sweep.d",
+    "object": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/Sweep.swift.o",
+    "swiftmodule": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/Sweep~partial.swiftmodule",
+    "swift-dependencies": "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/Sweep.swiftdeps"
+  }
+}
