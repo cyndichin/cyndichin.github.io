@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "daa934d27afeb98a37dcd239d49f631e"
-build_time: [1581371251, 45891000]
+build_time: [1582603732, 209838000]
 inputs:
   "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/ink/Sources/Ink/API/Markdown.swift": [1581371248, 73032645]
   "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/ink/Sources/Ink/API/MarkdownParser.swift": [1581371248, 73162724]

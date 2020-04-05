@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "84eb455c52d4957c4e794d27c7ab8d71"
-build_time: [1581371251, 45205000]
+build_time: [1582603732, 374852000]
 inputs:
   "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/sweep/Sources/Sweep/Sweep.swift": [1581371248, 624468271]

@@ -35,11 +35,11 @@ extension Node where Context == HTML.DocumentContext {
            ),
             .link(
                 .rel(.stylesheet),
-                .href("/Mystic/styles.css")
+                .href("/Themes/styles.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/all.css")
+                .href("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css")
             )
             
         )

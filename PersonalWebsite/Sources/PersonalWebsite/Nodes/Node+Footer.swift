@@ -12,7 +12,7 @@ extension Node where Context == HTML.BodyContext {
         return .div(
             .class("footer pure-u-1"),
             .div(
-                .text("© 2019 \(site.name). Written in Swift. Generated using "),
+                .text("© 2020 \(site.name). Written in Swift. Generated using "),
                 .a(
                     .text("Publish"),
                     .href("https://github.com/johnsundell/publish")

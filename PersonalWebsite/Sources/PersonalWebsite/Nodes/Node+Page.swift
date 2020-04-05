@@ -14,6 +14,7 @@ extension Node where Context == HTML.BodyContext {
         return .pageContent(
             .h2(
                 .class("post-title")
+//                .text(page.title)
             ),
             .div(
                 .class("post-description"),
@@ -24,4 +25,3 @@ extension Node where Context == HTML.BodyContext {
         )
     }
 }
-

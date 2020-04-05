@@ -22,6 +22,8 @@ depends-top-level:
 - "TagDetailsPage"
 - "TagListPage"
 - "WebsiteHTMLFactory"
+- !private "print"
+- !private "~="
 depends-member:
 - !private ["7Publish7AnyItemP", "date"]
 - !private ["4Plot7AnyNodeP", "body"]
@@ -68,6 +70,7 @@ depends-member:
 - !private ["SQ", "date"]
 - !private ["SQ", "descending"]
 - !private ["SQ", "string"]
+- !private ["SQ", "title"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "body"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "capitalized"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "footer"]
@@ -136,6 +139,7 @@ depends-member:
 - ["7Publish11HTMLFactoryP", "makeSectionHTML"]
 - ["7Publish11HTMLFactoryP", "makeTagDetailsHTML"]
 - ["7Publish11HTMLFactoryP", "makeTagListHTML"]
+- !private ["7Publish11HTMLFactoryP", "print"]
 - ["SH", "about"]
 - !private ["SH", "allCases"]
 - !private ["SH", "capitalized"]
@@ -172,6 +176,7 @@ depends-member:
 - !private ["4Plot4NodeO", "sidebar"]
 - !private ["4Plot4NodeO", "tagList"]
 - !private ["4Plot4NodeO", "text"]
+- !private ["7Publish4PageV", "title"]
 - ["15PersonalWebsiteAAV", "SectionID"]
 - ["15PersonalWebsiteAAV", "deinit"]
 - !private ["15PersonalWebsiteAAV", "language"]
@@ -234,6 +239,7 @@ depends-member:
 - ["15PersonalWebsite0B11HTMLFactoryV", "makeSectionHTML"]
 - ["15PersonalWebsite0B11HTMLFactoryV", "makeTagDetailsHTML"]
 - ["15PersonalWebsite0B11HTMLFactoryV", "makeTagListHTML"]
+- !private ["15PersonalWebsite0B11HTMLFactoryV", "print"]
 - !private ["15PersonalWebsite0B11HTMLFactoryV", "sections"]
 - ["7Publish16WebsiteSectionIDP", "about"]
 - !private ["7Publish16WebsiteSectionIDP", "allCases"]
@@ -286,6 +292,7 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "4Plot4NodeO"
+- !private "7Publish4PageV"
 - "15PersonalWebsiteAAV"
 - !private "7Publish17PublishingContextV"
 - !private "Sm"

@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "b817c198c5a6c4bb5866f63a9b1f3503"
-build_time: [1582603733, 89760000]
+build_time: [1586093394, 878537000]
 inputs:
   "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/codextended/Sources/Codextended/Codextended.swift": [1581371248, 788194234]

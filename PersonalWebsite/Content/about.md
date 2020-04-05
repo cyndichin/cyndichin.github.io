@@ -5,12 +5,14 @@ tags: Personal
 ---
 # about 
 
-![picture of me ](/images/profilepic.jpg)
+<div align="center">
+  <img src="/images/profilepic.jpg">
+</div>
 
-<p align="center">
-iOS Developer - Security Enthusiast - Educator
-</p>
+<div align="center">
+iOS Developer - Security Enthuasist - Enjoys Teaching
+</div>
 
-### Business student turned into a techie - I am currently at NBCUniversal building features for the CNBC iOS App. I am interested in the intersection of education and technology and hope to work on projects to empower others to learn and grow more. I spend my free time snowboarding, playing board games and reading articles about tech, productivity, health and finances.
+### Currently, I am a MediaTech Associate at NBCUniversal building features for the CNBC iOS App. I am interested in the intersection of education and technology and hope to work on projects to empower others to learn and grow more. I spend my free time snowboarding, playing board games and reading articles about tech, productivity, health and finances.
 
 ### Overall, I am passionate about learning and I am currently exploring the path of becoming a junior iOS Developer.

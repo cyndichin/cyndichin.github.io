@@ -60,19 +60,18 @@ struct WebsiteHTMLFactory: HTMLFactory {
     
     
     func makeItemHTML(for item: Item<PersonalWebsite>, context: PublishingContext<PersonalWebsite>) throws -> HTML {
-//        HTML(
-//            .lang(context.site.language),
-//            .head(for: context.site),
-//            .body(
-//                .grid(
-//                    .sidebar(for: context.site),
-//                    .post(for: item, on: context.site),
-//                    .footer(for: context.site)
-//                )
-//
-//            )
-//        )
-        return HTML()
+        HTML(
+            .lang(context.site.language),
+            .head(for: context.site),
+            .body(
+                .grid(
+                    .sidebar(for: context.site),
+                    .post(for: item, on: context.site),
+                    .footer(for: context.site)
+                )
+
+            )
+        )
     }
     
     func makePageHTML(for page: Page, context: PublishingContext<PersonalWebsite>) throws -> HTML {

@@ -88,7 +88,6 @@ depends-member:
 - ["Se", "init"]
 - ["Se", "rawValue"]
 - !private ["s7DecoderP", "container"]
-- ["7Publish16DeploymentMethodV", "gitHub"]
 - ["SE", "init"]
 - ["SQ", "=="]
 - ["SQ", "AllCases"]
@@ -166,7 +165,6 @@ depends-member:
 - ["15PersonalWebsiteAAV", "url"]
 - ["7Publish14PublishingStepV", "addMarkdownFiles"]
 - ["7Publish14PublishingStepV", "copyResources"]
-- ["7Publish14PublishingStepV", "deploy"]
 - ["7Publish14PublishingStepV", "generateHTML"]
 - ["7Publish14PublishingStepV", "generateRSSFeed"]
 - ["7Publish14PublishingStepV", "generateSiteMap"]
@@ -246,7 +244,6 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - "Se"
 - !private "s7DecoderP"
-- "7Publish16DeploymentMethodV"
 - "SE"
 - "SQ"
 - "SH"
@@ -2060,4 +2057,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "466c348afdce11fb4a0bb91c4b7f46aa"
+interface-hash: "60c38301fd94ea51f8d5b5d5749fded9"

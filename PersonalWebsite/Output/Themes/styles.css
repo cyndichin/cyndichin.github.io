@@ -18,8 +18,9 @@ a:focus {
 /*    text-decoration: underline;*/
 }
 
+
 h1 {
-    font-family: 'Comfortaa';
+    font-family: 'Montserrat';
     font-size: 2em;
 }
 
@@ -128,6 +129,7 @@ h3 {
     margin-left: 1em;
 }
 .post-description {
+    font-family: 'Montserrat';
     color: #444;
     line-height: 1.8em;
 }

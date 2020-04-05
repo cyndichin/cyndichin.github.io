@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "b7bd875bf69c43d275a699c20224843a"
-build_time: [1581371258, 699387000]
+build_time: [1582603732, 207087000]
 inputs:
   "/Users/cynber/Developer/GitHub/Publish/PersonalWebsite/.build/checkouts/files/Sources/Files.swift": [1581371249, 106395820]

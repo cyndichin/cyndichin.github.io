@@ -15,8 +15,9 @@ extension Node where Context == HTML.BodyContext {
             .h2(
                 .class("post-title"),
                 .a(
-                    .href(item.path),
-                    .text(item.title)
+                    .href(item.path)
+//                    .text(item.title)
+                    
                 )
             ),
             .p(
