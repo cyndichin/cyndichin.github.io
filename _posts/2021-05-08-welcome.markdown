@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Welcome!!"
+date:   2021-05-08 20:09:49 -0400
+categories: personal
+---
+
+Hello! Welcome to my personal website, where I will discuss a bit about myself, display some projects I worked on and host my blog posts. Currently, this website is under construction until I put all the pieces together. I am using Github Pages, Jekyll and a Jekyll theme to develop this site.
+
+# The Beginning
+
+I thought of starting a blog many many times -- to serve as a self-reflection, to help others learn from my lessons learned, and to conquer my fears.
+
+Recently, I've read Ali Abdaal's post on "Getting over the fear of personal blogging" and it really resonated with me. All the concerns he has were similar to mine as I always was afraid of putting out a blog for everyone to see. I didn't think I was good enough to write about anything and felt that I needed to wait until I became an expert in the field. 
+
+However, I picked up reading 'Show your Work' by Austin Kleon and it truly influenced me to restructure the way I think and to start this blog for self-reflection and hopefully for others to take something away.
+
+Today is a beginning of a new era where I document my journey.
