@@ -33,17 +33,17 @@ hero:
 portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
-    - image: /images/gallery-01.jpg
-      title: Samantha Gades
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+    - image: /images/portfolio/dabbles.png
+      title: Dabbles
+      description: iOS App to help users keep track and enter challenges with friends
+
+    - image: /images/portfolio/100daysofswiftUI.png
+      title: 100 Days of SwiftUI
+      description: Taking part of <a href="https://www.hackingwithswift.com/100/swiftui">100 Days of SwiftUI</a>. On day 45 of 100. Follow my progress on Instagram @matchabytes.
 
     - image: /images/omscs/6300/androidapp.png
       title: Job Compare App
       description: Android App created as part of <a href="https://cyndichin.github.io/blog/omscs6300">OMSCS 6300</a>
-
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
 
     # - image: /images/gallery-04.jpg
     #   title: Nord Wood
@@ -99,7 +99,7 @@ footer:
 # Contact Settings
 contact:
   email: cgc95@cornell.edu # Add your email for contact form
-  description: I’d love to learn about you and your aspirations, feel free to reach me with any inquiries at cyndi.chin@gmail.com. # Add a description of your form.
+  description: I’d love to learn about you and your aspirations, feel free to reach me with any inquiries at simplymatchabytes@gmail.com. # Add a description of your form.
 
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
