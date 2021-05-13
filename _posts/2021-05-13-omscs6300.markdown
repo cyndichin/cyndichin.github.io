@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "[OMSCS] CS6300: Software Development Process"
+date:   2021-05-12 4:20:55 -0400
+image:  '/images/omscs/01.png'
+tags:   [omscs, gatech, education]
+---
+
+> Part of my OMSCS Review series
+
+# CS6300: Software Development Process
+
+In Spring 2021, I completed my second course in the OMSCS Program at Georgia Tech, [Software Development Process (CS6300)](http://omscs.gatech.edu/cs-6300-software-development-process). This was overall a great course to take as a lot of what we learned was similar to what I experienced as a junior engineer. I wanted to take this course because I am at the entry point of my career and wanted to get better insight on improving my software engineering skills. As someone who didn't graduate from a CS degree, I thought this was a good foundational course to improve my software engineering fundamentals and become a better developer. Additionally, I am passionate about mobile development and wanted to gain experience in building an Android app in Java. Overall, we learned about various software engineering practices and methodologies as well as implementing them through projects. 
+
+**Topics**: TDD, testing and coverage, white-box and black-box testing, object oriented design, agile development methods, documentation best practices (e.g., requirements, test cases, use cases), etc.
+
+## Do you recommend this course?
+
+I highly recommend taking this course for someone who doesn't have much experience in software development or software engineering. It provides a pretty good foundation and highlights many topics that I see from my day job as an engineer. This course definitely opens you up to consider what is good architecture design, what software development cycles are, agile methodology and keeping in mind testing / refactoring. The downside is that the individual project seemed a bit tedious as it was a bit difficult trying to figure out all the test cases that we needed to cover. However, I felt that this class was pretty fair and on the easy side of things. In my class, many of the students struggled with A6, but I felt that keeping it simple with this assignment and revisiting the lectures helped for doing well on this. 
+
+Professor Orso and the TA's were pretty responsive in Piazza and they held Office Hours every week (though I didn't attend all of them). Additionally the Slack channel for this course was also very helpful. 
+
+**Tip:** Pay close attention to Piazza and read each detail of the assignments.
+
+Overall, I enjoyed being able to build an Android App that has a persistent database and multiple UI screens. 
+
+## Course Overview
+
+The workload for this course was pretty light and the lectures I was able to finish within two days after work. Each week there was an assignment and I typically finished them before the weekend. It was nice that as the assignment went on, the difficulty increased so there wasn't a high learning curve for me. I did a lot of googling when it came to building the Android App and developing in Java. I was used to implementing in Java, I started adding semi-colons at work haha. 
+
+### Assignments
+
+Here is the breakdown of the Assignments:
+
+- Assignment 0 - Participation / Syllabus Quiz
+- Assignment 1 - Team Matching Survey
+- Assignment 2 - Git Usage
+- Assignment 3 - Basic Java Coding and JUnit Testing
+- Assignment 4 - Simple Android App
+- Assignment 5 - Software Design
+    - Developing a UML diagram for the upcoming group project which will be used to compare with your team members
+- Group Project - Building an Android App to keep track of user's current job, job offers and compare them
+    - Deliverable 0
+    - Deliverable 1
+    - Deliverable 2
+    - Deliverable 3
+    - Deliverable 4
+- Assignment 6 - White-Box Testing
+- Individual Project - building a command line called cleave via Java that is used on a file and outputs a specific pattern. This command line had various options and for each option there is a different output. The goal of this project was to use test-driven development (TDD) by writing test cases before building the command line.
+    - Deliverable 1
+    - Deliverable 2
+    - Deliverable 3
+    - Deliverable 4
+
+### Exams
+
+There were no exams so that was nice too! I really like project based courses.
+
+## How do I prepare for this course?
+
+Personally, I didn't prepare because I read on OMSCentral that the course had a light workload and was an easy A. Additionally, I have experience in coding in an OOP language (Swift), so it was easy to pick up Java. The main issue was understanding the IDE and the syntax of using Java as well as how to build an Android App. 
+
+## Lessons Learned
+
+From this class, I got to exercise my muscles in Java and developing Android Apps. We also utilized Android Studio and IntelliJ so got to have a bit of experience with those. This class inspired me to consider creating a simple Android app in the future. It was fun to be able to create and build an app, but also got to exercise my muscles in testing and addressing bugs.
+
+From this class, these are my main take aways that I will keep in mind as I continue to progress my career and hobby in software development:
+
+- Create designs and diagrams to before building projects
+- Develop code that is maintainable and scalable
+- Consider testing when building new features and keep in mind TDD
