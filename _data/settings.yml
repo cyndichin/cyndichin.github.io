@@ -37,9 +37,9 @@ portfolio:
       title: Samantha Gades
       description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
 
-    - image: /images/gallery-02.jpg
-      title: Paula Vermeulen
-      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
+    - image: /images/omscs/6300/androidapp.png
+      title: Job Compare App
+      description: Android App created as part of <a href="https://cyndichin.github.io/blog/omscs6300">OMSCS 6300</a>
 
     - image: /images/gallery-03.jpg
       title: Bench Accounting
