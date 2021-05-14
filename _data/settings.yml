@@ -37,7 +37,7 @@ portfolio:
       title: Dabbles
       description: iOS App to help users keep track and enter challenges with friends
 
-    - image: /images/portfolio/100daysofswiftUI.png
+    - image: /images/portfolio/100daysofswiftui.png
       title: 100 Days of SwiftUI
       description: Taking part of <a href="https://www.hackingwithswift.com/100/swiftui">100 Days of SwiftUI</a>. On day 45 of 100. Follow my progress on Instagram @matchabytes.
 
