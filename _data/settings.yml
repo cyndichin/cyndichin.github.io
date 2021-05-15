@@ -22,7 +22,7 @@ menu__settings:
       url: '/contact/'
 
 
-#-------------------------------
+#------------------------------- 
 # Hero Settings
 hero:
   hero__title: Hi, I’m Cyndi Chin. I’m an iOS Developer based in New York City.

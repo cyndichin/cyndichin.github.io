@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-<img style="float: left; width: 300px; height: 300px; overflow: hidden; padding-right: 30px; padding-bottom: 30px;" src="/images/about/profile.jpg">
+<img style="float: left; border-radius: 25px; width: 300px; height: auto; overflow: hidden; margin-right: 30px; margin-top: 10px;" src="/images/about/profile.jpg">
 
 Welcome! I'm Cyndi.
 
-Currently, I am an iOS Engineer at CNBC with a business and cybersecurity background. Additionally, I am also a part-time student enrolled in the OMSCS program at Georgia Tech. 
+I am an iOS Software Engineer at CNBC with a background in business and cybersecurity. Additionally, I am enrolled in the OMSCS program at Georgia Tech as a part-time student. 
 
 I am interested in the intersection of education and technology and hope to work on projects to empower others to learn and grow. 
 
-I spend my free time snowboarding, playing board games and reading articles about tech, productivity, health and finances. Overall, I am passionate about learning and I am currently exploring the path of becoming a more experienced iOS Developer. 
+During my free time, I enjoy snowboarding, exercising, playing board games, reading self-help books, and raving about boba + sushi.
+
+Overall, I am passionate about lifelong learning and I am currently exploring the path of becoming a more experienced mobile Developer. 
 
 > Tell me and I forget, teach me and I may remember, involve me and I learn.
 >
