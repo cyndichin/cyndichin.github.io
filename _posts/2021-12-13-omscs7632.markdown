@@ -57,10 +57,18 @@ Here is the breakdown of the Assignments:
 
 - Assignment 5 - Decision Making with Finite State Machines (Prison Dodgeball)
 	- There was a tournament that you could have participated to get extra points, but I didn't not go through it as I didn't think my implementation was that great. 
+
+<figure class="video_container">
+  <iframe src="https://user-images.githubusercontent.com/6743397/145896369-96000d6f-15a9-4be7-925e-04d36b4beb7b.mov" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 		
 - Assignment 6 - Race Track
 	- This was my favorite assignment because it was fun to see how I can create rules that trigger the vehicle to move right or left on its own depending on its position.	
 	
+<figure class="video_container">
+  <iframe src="https://user-images.githubusercontent.com/6743397/145896399-afd90c26-9477-48a9-b9d1-bf8675a302a6.mov" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 - Assignment 7 - Procedural Content Generation
 	- This was the easiest assignment as there was no coding involved and was more about tweaking parameters in Unity. However, some students got creative with applying textures. 
 
