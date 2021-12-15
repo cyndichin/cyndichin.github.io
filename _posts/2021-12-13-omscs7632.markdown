@@ -10,7 +10,7 @@ tags:   [omscs, gatech, education]
 
 # CS7632: Game AI
 
-In Fall 2021, I completed my fourth course in the OMSCS Program at Georgia Tech, [Game AI (CS6732)](https://omscs.gatech.edu/cs-7632-game-ai). 
+In Fall 2021, I completed my fourth course in the OMSCS Program at Georgia Tech, [Game AI (CS7632)](https://omscs.gatech.edu/cs-7632-game-ai). 
 
 I love playing video games and I was curious to see how AI agents are working behind the scenes, especially in games like Chess. Last semester, I took Artificial Intelligence and this class gave me a better insight on how it can be applicable to games. Overall, we learned about the role of AI in games and our assignments were based on implementing algorithms for different aspects of a game.
 
@@ -57,14 +57,18 @@ Here is the breakdown of the Assignments:
 	- There was a tournament that you could have participated to get extra points, but I didn't not go through it as I didn't think my implementation was that great. 
 
 <figure class="video_container">
-  <iframe src="https://user-images.githubusercontent.com/6743397/145896369-96000d6f-15a9-4be7-925e-04d36b4beb7b.mov" frameborder="0" allowfullscreen="true"> </iframe>
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/omscs7632/prison_dodgeball.mov" type="video/mp4">
+  </video>
 </figure>
 		
 - Assignment 6 - Race Track
 	- This was my favorite assignment because it was fun to see how I can create rules that trigger the vehicle to move right or left on its own depending on its position.	
 	
 <figure class="video_container">
-  <iframe src="https://user-images.githubusercontent.com/6743397/145896399-afd90c26-9477-48a9-b9d1-bf8675a302a6.mov" frameborder="0" allowfullscreen="true"> </iframe>
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/omscs7632/race_track.mov" type="video/mp4">
+  </video>
 </figure>
 
 - Assignment 7 - Procedural Content Generation
