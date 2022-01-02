@@ -3,7 +3,7 @@ layout: post
 title:  "[Book Review] Essentialism by Greg Mckeown"
 date:   2021-12-29 2:11:03 -0400
 image:  '/images/bookreview/essentialism/cover.jpg'
-tags:   [book, review, essentialism, greg mckeown]
+tags:   [book review, essentialism, greg mckeown]
 ---
 
 > Part of the Book Review series
