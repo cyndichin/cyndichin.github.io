@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[OMSCS] INTA 6450: Data Analytics + Security"
-date:   2022-08-16 5:48:00 -0400
-image:  '/images/omscs/6450/01.png'
-tags:   [omscs, gatech, education]
+title:  "[OMSCS]  INTA 6450: Data Analytics + Security"
+date:   2022-08-16 5:48:00 -0400
+image:  '/images/omscs/6450/01.png'
+tags:   [omscs, gatech, education]
 ---
 
 > Part of my OMSCS Review series
@@ -56,7 +56,7 @@ The project was very open ended and creativity was given to use in terms of how 
 
 For Part 1, the proposal was an individual assignment where you create a proposal for the project. The project was very vague and the professor provided some templates in what direction you can take the project. My initial proposal was to focus on applications that have misconfigured APIs and using this finding to predict that the application is also prone to contain other features such as data leakage, exposure of excessive information, and lack of proper cryptographic methods.
 
-For Part 2, the paper and presentation were group assignments. We could utilize any of our proposals in Part 1, but our group decided to go with a different route. In general, the paper consist of our analytical goal for the project, the methodologies we used, results we found, whether those results were good and if we could fix or not fix any problems with the approach we used. Our project goal, specifically, was to implement a ML model that predicts whether an application is secure enough to be available in the Android marketplace and we did this using key attributes related to the [OWASP Top 10 Mobile Risks] (https://owasp.org/www-project-mobile-top-10/).
+For Part 2, the paper and presentation were group assignments. We could utilize any of our proposals in Part 1, but our group decided to go with a different route. In general, the paper consist of our analytical goal for the project, the methodologies we used, results we found, whether those results were good and if we could fix or not fix any problems with the approach we used. Our project goal, specifically, was to implement a ML model that predicts whether an application is secure enough to be available in the Android marketplace and we did this using key attributes related to the [OWASP Top 10 Mobile Risks](https://owasp.org/www-project-mobile-top-10/).
 
 The presentation (~20 min) was to cover the information in our paper and project. We discussed the pattern of security risk we focused on and our results of these findings. Also, we described what our limitations were and future enhancements. 
 
@@ -66,4 +66,4 @@ The presentation (~20 min) was to cover the information in our paper and project
 It is helpful if you have prior knowledge of Python for the final project, but not necessary. It's important to find great group members early on. I got lucky that I had a great group and everyone contributed / participated in the meetings. We also had a data scientist which helped as he had more expertise in creating machine learning models using python libraries.
 
 ## Lessons Learned
-From this class, I got to exercise my muscles in using Python to parse JSON data. Also, I got exposure to analyzing a dataset that contain information about mobile applications. Aside from that, I honestly don't have much main takeaways from this course and learned very little, which is why I wouldn't take it the course again. 
+From this class, I got to exercise my muscles in using Python to parse JSON data. Also, I got exposure to analyzing a dataset that contain information about mobile applications. Aside from that, I honestly don't have much main takeaways from this course and learned very little, which is why I wouldn't take it the course again.
