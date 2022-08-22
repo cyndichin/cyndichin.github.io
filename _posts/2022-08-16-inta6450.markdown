@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "[OMSCS] INTA 6450: Data Analytics + Security"
+date:   2022-08-16 5:48:00 -0400
+image:  '/images/omscs/6450/01.png'
+tags:   [omscs, gatech, education]
+---
+
+> Part of my OMSCS Review series
+
+# INTA 6450: Data Analytics + Security
+
+In Summer 2022, I completed my sixth course in the OMSCS Program at Georgia Tech, [Data Analytics and Security (INTA6450)](https://omscs.gatech.edu/inta-6450-data-analytics-and-security). I was interested in this course because of the course project, which students can hone their data analytics skills on real world cybersecurity data. The data comes from NowSecure, a mobile app security company that the course has a partnership with. NowSecure scans all Android and iOS apps available on public app stores.
+
+With my background in security incident response and mobile development, I was interested to see how I can utilize my data analytic skills to find patterns and security vulnerabilities that are existing on mobile applications, which are installed on millions of devices.
+
+**Topics Covered**: big data, linear regression, decision trees, clustering, probability, bayesian reasoning, neural nets, R, Python
+
+## Do you recommend this course?
+I recommend taking this course for someone who wants an easy A course with a light workload. However, I wouldn't take this course again because I didn't learn too much and didn't think I gain or improved my skillset. I did get a high level overview of big data and techniques used to perform data analytics, but it was at a superficial level and I doubt I will retain the information. The highlight for me was being able to gain access to a dataset that contained detailed analyses and reports of various mobile applications in the app store.
+
+This course may be more well suited for someone passionate about data analytics as Professor Borowitz was very friendly and passionate about the topic. Therefore, going to office hours may have provided someone who was interested in the topic with more value. 
+
+Overall, I wouldn't recommend this course unless you want to take an easy class or enjoy data analytics.
+
+## Course Overview
+The workload for this course was pretty light and I didn't spend more than 5 hours a week on the course. I followed the syllabus, so I watched the lectures and completed the quizzes / discussions as they came out. The coding assignments were also easy because it was altering the code and then writing about those changes. Towards the end of the semester, it was a bit more time consuming as we had to complete the final project as a group. 
+
+### Assignments  
+The assignments consisted of lecture activities (i.e. quiz, discussion posts), computing activities (i.e. R and Python tasks) and the final project. There were two options to pick from the project: Enron or NowSecure. I decided to choose NowSecure due to my interest in the mobile space. There were no exams. 
+
+Here is the breakdown of the Assignments:
+
+**Lecture Activities** (30%)
+* Quizzes (9 total) - 50 points each
+* Discussions (11 total) - 4 points each
+
+The quizzes were open book and you can find the answers exactly on the slides or videos from the lectures, so it is easy to do well on them. For the discussions, the grading was also easy as long as you answer all the questions. Discussions would consist of reading an article or getting your opinion on a topic relating to the the lectures of that week. 
+
+**Computing Activities** (20%)
+* R Exercises (4 total) - 10 points each
+* Crime and Punishment Python Exercise (1 total) - 10 points each
+
+The programming exercises were essentially to just make changes or add extensions to the code that was already provided. It was a way to give exposure to different languages and some libraries that might be helpful for our project. 
+
+**Project Activities** (50%)
+* Course Project, Part 1 Proposal – 20 points  
+* Course Project, Part 1 Peer Review – 10 points  
+* Course Project, Part 2 Paper – 30 points  
+* Course Project, Part 2 Presentation – 30 points  
+* Course Project, Part 2 Presentation Peer Review – 5  
+points  
+* Peer Review of Teammates – 5 points
+
+The project was very open ended and creativity was given to use in terms of how we wanted to analyze a dataset. Since I choose to do the NowSecure project, our project was to find security vulnerabilities and patterns that surrounding insecure applications.
+
+For Part 1, the proposal was an individual assignment where you create a proposal for the project. The project was very vague and the professor provided some templates in what direction you can take the project. My initial proposal was to focus on applications that have misconfigured APIs and using this finding to predict that the application is also prone to contain other features such as data leakage, exposure of excessive information, and lack of proper cryptographic methods.
+
+For Part 2, the paper and presentation were group assignments. We could utilize any of our proposals in Part 1, but our group decided to go with a different route. In general, the paper consist of our analytical goal for the project, the methodologies we used, results we found, whether those results were good and if we could fix or not fix any problems with the approach we used. Our project goal, specifically, was to implement a ML model that predicts whether an application is secure enough to be available in the Android marketplace and we did this using key attributes related to the [OWASP Top 10 Mobile Risks] (https://owasp.org/www-project-mobile-top-10/).
+
+The presentation (~20 min) was to cover the information in our paper and project. We discussed the pattern of security risk we focused on and our results of these findings. Also, we described what our limitations were and future enhancements. 
+
+**Tip:** Make sure to get a good group for the course project.
+
+## How do I prepare for this course?
+It is helpful if you have prior knowledge of Python for the final project, but not necessary. It's important to find great group members early on. I got lucky that I had a great group and everyone contributed / participated in the meetings. We also had a data scientist which helped as he had more expertise in creating machine learning models using python libraries.
+
+## Lessons Learned
+From this class, I got to exercise my muscles in using Python to parse JSON data. Also, I got exposure to analyzing a dataset that contain information about mobile applications. Aside from that, I honestly don't have much main takeaways from this course and learned very little, which is why I wouldn't take it the course again. 
