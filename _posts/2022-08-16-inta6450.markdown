@@ -48,8 +48,7 @@ The programming exercises were essentially to just make changes or add extension
 * Course Project, Part 1 Peer Review – 10 points  
 * Course Project, Part 2 Paper – 30 points  
 * Course Project, Part 2 Presentation – 30 points  
-* Course Project, Part 2 Presentation Peer Review – 5  
-points  
+* Course Project, Part 2 Presentation Peer Review – 5 points  
 * Peer Review of Teammates – 5 points
 
 The project was very open ended and creativity was given to use in terms of how we wanted to analyze a dataset. Since I choose to do the NowSecure project, our project was to find security vulnerabilities and patterns that surrounding insecure applications.

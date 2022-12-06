@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "[OMSCS] CS 6150: Computing For Good"
+date:   2022-08-16 5:48:00 -0400
+image:  '/images/omscs/6150/01.png'
+tags:   [omscs, gatech, education]
+---
+
+> Part of my OMSCS Review series
+
+# CS 6150: Computing For Good
