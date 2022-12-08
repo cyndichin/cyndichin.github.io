@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Mobile] SwiftLint Overview"
+title:  "SwiftLint Overview"
 date:   2022-12-06 8:03:03
 image:  '/images/ios/main.jpeg'
 tags:   [ios, swift, mobile development]
@@ -8,7 +8,7 @@ tags:   [ios, swift, mobile development]
 
 > Part of the Mobile Development series
 
-# Mobile: SwiftLint Overview
+# SwiftLint Overview
 
 **What is SwiftLint?** A tool that allows us to enforce certain Swift style guide and conventions. It is an open source library and more details can be found here: [https://github.com/realm/SwiftLint](https://github.com/realm/SwiftLint)
 
@@ -25,7 +25,7 @@ This post will go over the following:
 ## Add SwiftLint to Build Phase in Pocket (iOS)
 First, we want to add a Build Phase so that we run the swiftlint checks after each build. 
 
-![SwiftLint Build Phase](/images/ios/01-buildphase.jpg)
+![SwiftLint Build Phase](/images/ios/swiftlint/01-buildphase.jpg)
 
 Below is an example in the Pocket project, but feel free to configure the shell script differently.
 
@@ -60,7 +60,7 @@ For more details on configuration: [https://github.com/realm/SwiftLint#configura
 # SwiftLint in Action
 Once you add the `.swiftlint.yml` file, we can verify that swiftLint is checking that the codebase is adhering to the Swift Style rules. If you don’t see any warnings, we can see it in action with a simple test using the vertical whitespace rule ([https://realm.github.io/SwiftLint/vertical_whitespace.html](https://realm.github.io/SwiftLint/vertical_whitespace.html)). Make sure that the `disabled_rules` does not include the identifier `vertical_whitespace`. Then go to any of your files and add a bunch of vertical line spaces. The following warning should appear:
 
-![Image 12-7-22 at 8.02 PM.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/261f490c-510b-47ca-be3f-a44415249feb/Image_12-7-22_at_8.02_PM.jpg)
+![SwiftLint Warning](/images/ios/swiftlint/02-warning.jpg)
 
 Now you have SwiftLint integrated and working in your project! If you don’t want to address the issues manually, there is a neat command to auto fix the issues: `swiftlint --fix`. Sometimes it can’t auto fix the issues, but it does a pretty great job from what I seen.
 
@@ -69,11 +69,11 @@ If you are seeing the following issue `-bash: swiftlint: command not found`, you
 # Custom Rules
 As mentioned above, SwiftLint has a rule directory of all the different rules that you can disable or enabled depending on which set the rule belongs to. However, these set of rules are limited in numbers and at times we may want to add custom rules that are not included in the set from the directory. The custom rules uses regular expressions to capture any violations. For example, the rule below will warn if there is any string with `internal func` in the codebase. This custom rule is for demo purposes as it does not check whether it is redundant or not.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59e4aace-b452-46eb-9c93-b86c2163bdbc/Untitled.png)
+![SwiftLint Custom Rule](/images/ios/swiftlint/03-customrule.jpg)
 
 There are many regex tools out there that we can use such as [https://regex101.com](https://regex101.com/) to help us test out these rules.
 
-You can also do a rule request by opening an issue on the open source repository as well: https://github.com/realm/SwiftLint/issues
+You can also do a rule request by opening an issue on the open source repository as well: [https://github.com/realm/SwiftLint/issues](https://github.com/realm/SwiftLint/issues) 
 
 # Summary
 
