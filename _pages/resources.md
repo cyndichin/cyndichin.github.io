@@ -5,9 +5,9 @@ permalink: /resources/
 # image: '/images/01.jpg'
 ---
 
-iOS Resources
-* raywenderlich.com
+# iOS Resources
+* https://www.kodeco.com
 * https://cs193p.sites.stanford.edu/
 
-OMSCS Resources
+# OMSCS Resources
 * https://omscentral.com/
