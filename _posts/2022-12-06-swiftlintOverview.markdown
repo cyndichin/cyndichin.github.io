@@ -42,6 +42,7 @@ else
   echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
 ```
+Next, we want to add the configuration file.
 
 ## Create the SwiftLint Configuration File
 
@@ -69,7 +70,7 @@ If you are seeing the following issue `-bash: swiftlint: command not found`, you
 # Custom Rules
 As mentioned above, SwiftLint has a rule directory of all the different rules that you can disable or enabled depending on which set the rule belongs to. However, these set of rules are limited in numbers and at times we may want to add custom rules that are not included in the set from the directory. The custom rules uses regular expressions to capture any violations. For example, the rule below will warn if there is any string with `internal func` in the codebase. This custom rule is for demo purposes as it does not check whether it is redundant or not.
 
-![SwiftLint Custom Rule](/images/ios/swiftlint/03-customrule.jpg)
+![SwiftLint Custom Rule](/images/ios/swiftlint/03-customrule.png)
 
 There are many regex tools out there that we can use such as [https://regex101.com](https://regex101.com/) to help us test out these rules.
 
