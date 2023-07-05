@@ -3,14 +3,12 @@ layout: post
 title:  "[Book Review] Essentialism by Greg Mckeown"
 date:   2021-12-29 2:11:03 -0400
 image:  '/images/bookreview/essentialism/cover.jpg'
-tags:   [book review, essentialism, greg mckeown]
+tags:   [book review, essentialism]
 ---
 
 > Part of the Book Review series
 
 # Book Review: Essentialism by Greg Mckeown
-
-
 
 Essentialism walks you through the mindset of an Essentialist and discusses how we can develop a systematic approach for determining what are the important things in our lives and how we can focus our energy in contributing to those essentials when making a decision. It is not about getting more things done, it is about getting the right things done. 
 
