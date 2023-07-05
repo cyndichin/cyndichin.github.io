@@ -13,11 +13,10 @@ As I started my official iOS career in 2020, there were some tips and tricks in 
 
 Most of the tools that we will be going over are listed in the debug menu shown below:
 
-![Debug Menu](/images/ios/xcodeDebugging/01-debugMenu.jpg)
+![Debug Menu](/images/ios/xcodeDebugging/01-debugMenu.png)
 
 # UI Test Recorder 
 Going from left to right, you'll see a red record button. If you are planning on implementing UI tests, this is helpful in generating automatic code for you. First, create a UI test case and then press the record button which will run the simulator. Now, the recorder will attempt to write code that matches the actions you take in the Simulator. Although I tend to write the code myself, this is useful in understanding how Xcode will interpret your actions and can provide insight on some names and what type of element you are interacting with.
-
 
 # View Hierarchy
 As someone who is passionate about the UI, I really like this view hierarchy because you can see the layers of different UI elements that are appearing. It is useful if you have some weird UI bug to address as and want to see what the hierarchy looks like and there are attributes for each element. 

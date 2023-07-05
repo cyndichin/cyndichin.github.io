@@ -43,5 +43,3 @@ There are resources out there that argue the use of MVVM for SwiftUI.
 Overall, this is our initial series 
 
 # Resources
-
-1> 3> 6>7>4>8>2>5>9
