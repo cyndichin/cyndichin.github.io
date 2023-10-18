@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "SwiftUI and Architecture Considerations"
-date:   2023-10-19 9:16:33
+title:  "First Look into Quick + Nimble"
+date:   2023-10-18 9:16:33
 image:  '/images/ios/main.jpeg'
 tags:   [ios, swift, mobile, testing]
 ---
@@ -111,7 +111,7 @@ Within each test case, we want to validate and fulfill test expectations. Nimble
 
 ```
 # Checking if two values are equal
-expect(value).to(equal(expectedValue)
+expect(value).to(equal(expectedValue))
 
 # Checking if boolean is true
 expect(isHappy).to(beTrue())
