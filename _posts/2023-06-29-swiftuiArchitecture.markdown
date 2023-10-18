@@ -3,12 +3,12 @@ layout: post
 title:  "SwiftUI and Architecture Considerations"
 date:   2023-06-29 4:43:03
 image:  '/images/ios/main.jpeg'
-tags:   [ios, swift, mobile development, architecture]
+tags:   [ios, swift, mobile, architecture]
 ---
 
 > Part of the Mobile Development series
 
-# SwiftUI Overview [ Work in Progress ]
+# SwiftUI Overview
 This blog post will go over my current understanding of SwiftUI and existing architectures that can be used to apply. 
 
 ## What is SwiftUI?

@@ -3,7 +3,7 @@ layout: post
 title:  "Xcode Debugging Tools"
 date:   2022-12-07 8:30:03
 image:  '/images/ios/main.jpeg'
-tags:   [ios, swift, mobile development]
+tags:   [ios, swift, mobile]
 ---
 
 > Part of the Mobile Development series

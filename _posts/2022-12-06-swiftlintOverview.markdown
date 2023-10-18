@@ -3,7 +3,7 @@ layout: post
 title:  "SwiftLint Overview"
 date:   2022-12-06 8:03:03
 image:  '/images/ios/main.jpeg'
-tags:   [ios, swift, mobile development]
+tags:   [ios, swift, mobile]
 ---
 
 > Part of the Mobile Development series
