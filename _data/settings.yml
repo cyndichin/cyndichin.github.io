@@ -25,8 +25,8 @@ menu__settings:
 #------------------------------- 
 # Hero Settings
 hero:
-  hero__title: Hi, I’m Cyndi Chin. I’m an iOS Developer based in New York City. Welcome to my little space on the web!
-  hero__description: I'm a mobile developer and fitness enthusiast, who enjoys creating pieces of work to enhance the lives and productivity of others. Welcome to my landing page about me, my portfolio, and my rambles on various topics. 
+  hero__title: Hi, I’m Cyndi Chin. I’m an iOS Developer based in New York City.
+  hero__description:  Welcome to my little space on the web! I'm a mobile developer and fitness enthusiast, who enjoys creating pieces of work to enhance the lives and productivity of others. This is my landing page about me, my portfolio, and my rambles on various topics. 
 
 #-------------------------------
 # Portfolio Settings
