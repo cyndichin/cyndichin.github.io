@@ -24,8 +24,10 @@ As someone who is passionate about the UI, I really like this view hierarchy bec
 
 # Memory Debugger
 Although I rarely use the memory debugger, it helps to know that this tool is available and provides more insight when there is a memory leak and you can see if an instance is created multiple times. This will give is a clue is something should be deallocated. 
-![Memory Debugger](/images/ios/xcodeDebugging/03-memoryDebugger.png)
+
+![Memory Debugger](/images/ios/xcodeDebugging/03-memorydebugger.png)
 
 # Environment Overrides
 Accessibility is usually seen as the last thing and sometimes isn't emphasized when it comes to building features. However, I definitely think it should be a consideration throughout if not at the beginning. The environmental overrides is useful for making sure that the app works in different environments. The environments could be based of dark mode, text sizes or other accessibility details.
+
 ![Environment Overrides](/images/ios/xcodeDebugging/04-environmentoverrides.png)
