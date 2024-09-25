@@ -33,9 +33,9 @@ hero:
 portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
-      - image: /images/portfolio/package-maintainers-score-section.png
-        title: 2023 Swift Mentorship Program
-        description: Participated in the program and implemented a new <a href="https://blog.swiftpackageindex.com/posts/revealing-and-explaining-package-scores/">Package Score</a> section for the Swift Package Index and documented <a href="https://forums.swift.org/t/2023-swift-mentorship-program-contributing-to-the-swift-package-index/68464">my mentorship journey in the Swift Forums</a>.
+    - image: /images/portfolio/package-maintainers-score-section.png
+    title: 2023 Swift Mentorship Program
+    description: Participated in the program and implemented a new <a href="https://blog.swiftpackageindex.com/posts/revealing-and-explaining-package-scores/">Package Score</a> section for the Swift Package Index and documented <a href="https://forums.swift.org/t/2023-swift-mentorship-program-contributing-to-the-swift-package-index/68464">my mentorship journey in the Swift Forums</a>.
 
     - image: /images/portfolio/angelayu.png
       title: iOS 13 App Development Bootcamp
