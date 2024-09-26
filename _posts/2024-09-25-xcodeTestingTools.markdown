@@ -22,29 +22,40 @@ After you select an option to run the tests repeatedly, then you should see a pr
 
 ![Test Repeatedly Prompt](/images/ios/xcodeTestingTools/02-testRepeatedlyPrompt.png)
 
-## Check code coverage
-Code coverage is a good way to indicate whether your tests are hitting certain code paths. It is a way oof mesasuing how much production code the test code covers. This helps us discover different paths of control low. 
+Select "Run" and can verify if your newly created tests have succeeded for all runs.
 
-First, I turn on the code coverage bar by navigating to the setting shown in the screenshot. Then, I run the tests to see how much of the file is covered. The coverage bar will show you the number of times a test has executed a part of the code. It is green if the code has been reached, but you will see red if no tests covers a part of the code.
+## Check code coverage
+Code coverage is a good way to indicate whether your tests are hitting certain code paths. It is a way of measuring how much production code the test code covers. This helps us discover whether we tested different paths of control flow. 
+
+First, we need to make sure that code coverage is enabled in our Test Plan configurations. After selecting the test plan in the Project navigator, you should see a similar configuration as below. Ensure that the Code Coverage setting is On.
+
+![Code Coverage](/images/ios/xcodeTestingTools/07-codeCoverageSetting)
+
+Next, I turn on the code coverage bar by navigating to the setting shown in the screenshot below. Then, I run the tests to see how much of the file is covered.
 
 ![Code Coverage](/images/ios/xcodeTestingTools/04-codecoverage.png)
+
+The coverage bar will show you the number of times a test has executed a part of the code. Green indicators show if the portion of a code has been reached, and red will be shown if no tests covers that specific part of the code. By using these indicators, this can help us confirm if we test multiple paths. Usually, the happy paths are covered, but its also important to cover other cases as well such as what happens when we return early.
 
 ![Code Coverage bar](/images/ios/xcodeTestingTools/09-codeCoverageBar.png)
 
 ## View the reports
-After running tests, I also look at the Tests and Coverage sections in the Report Navigator. This provides a high level view on tests and the metrics related to the code coverage that the tests have. By heading over to the report navigator, I can view the test results and view if there are any issues. 
+After running tests, I also look at the Tests and Coverage sections in the Report Navigator. The reports provides a high level overview on tests and the metrics related to the code coverage. By heading over to the report navigator, I can view the test results and view if there are any issues. 
+
 ![Report Navigator](/images/ios/xcodeTestingTools/05-reportNavigator.png)
 
-If successful, you should see a screenshot similar to the one below when running a test repeatedly:
+Here is an example of what a Test report may look like. This may be useful to understand patterns, trends and issues that occurred when running tests.
+
 ![Test Report](/images/ios/xcodeTestingTools/06-testReport.png)
 
-Additionally, you can also view code coverage results from the Coverage report in the Report Navigator. 
+Additionally, you can also view code coverage results from the Coverage report in the Report Navigator. This may be useful to understand gaps in coverage and areas that may need more testing.
 
 ![Coverage Report](/images/ios/xcodeTestingTools/08-codeCoverageReport.png)
 
 ## More resources
 To learn more about other Xcode tools, check out my other blog on debugging tools:
 * [Xcode Debugging Tools](https://github.com/Quick/Quick/blob/main/Documentation/en-us/README.md#documentation)
-Apple Docs:
+
+Useful Apple Docs on testing tools:
 * [Apple Docs - Code Coverage](https://developer.apple.com/documentation/xcode/determining-how-much-code-your-tests-cover#Enable-code-coverage-in-your-test-plan).
 * [Apple Docs - Updating tests](https://developer.apple.com/documentation/xcode/updating-your-existing-codebase-to-accommodate-unit-tests)
