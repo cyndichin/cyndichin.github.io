@@ -52,6 +52,11 @@ Additionally, you can also view code coverage results from the Coverage report i
 
 ![Coverage Report](/images/ios/xcodeTestingTools/08-codeCoverageReport.png)
 
+## Wrap up
+Overall, these are some handy tools that I use in Xcode while I am writing, viewing or troubleshooting tests. Hope sharing this will also help others who aren't aware of these tools. 
+In general, I enjoy writing tests because it gives me a sense of confidence in the code that I am writing and ensures that my production code is testable and decoupled. Additionally, it reaffirms that I understand
+the code and provides me feedback when I am implementing requirements. The bonus for me that it can also catch bugs early on.
+
 ## More resources
 To learn more about other Xcode tools, check out my other blog on debugging tools:
 * [Xcode Debugging Tools](https://github.com/Quick/Quick/blob/main/Documentation/en-us/README.md#documentation)
