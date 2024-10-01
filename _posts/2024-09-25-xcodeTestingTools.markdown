@@ -29,7 +29,7 @@ Code coverage is a good way to indicate whether your tests are hitting certain c
 
 First, we need to make sure that code coverage is enabled in our Test Plan configurations. After selecting the test plan in the Project navigator, you should see a similar configuration as below. Ensure that the Code Coverage setting is On.
 
-![Code Coverage](/images/ios/xcodeTestingTools/07-codeCoverageSetting)
+![Code Coverage](/images/ios/xcodeTestingTools/07-codeCoverageSetting.png)
 
 Next, I turn on the code coverage bar by navigating to the setting shown in the screenshot below. Then, I run the tests to see how much of the file is covered.
 
