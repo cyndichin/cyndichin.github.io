@@ -18,9 +18,16 @@ Before I dive in, this post assumes some knowledge of how the Firefox homepage w
 ### Proposal
 The homepage is one of the main features in the Firefox app and we want to contiously improve and enhance the experience for our users. There was a time when our homepage code caused app crashes every other week. To put out the fire, the team implemented temporary patches and band-aid fixes to help stabilize the application. However, these fixes were never intended to be long term solutions, as they make the code brittle and difficult to update. 
 
-Knowing that in the near future we want to experiment on the homepage, we took this opportunity to propose rebuilding the homepage instead of refactoring it. Therefore, a proposal was written to compare the two options with a recommendation to rebuild the homepage, which was eventually approved. While refactoring allows code changes to land in production sooner and give quicker results, in the long-term, the rebuilding option will save us from investing time in untangling code, pulling apart dependencies, and handling unknowns that arise when refactoring. By investing in a complete rebuild, we ensure the homepage will not only perform better but also be a make it easier for future development and feature expansion. 
+Knowing that in the near future we want to experiment on the homepage, we took this opportunity to propose rebuilding the homepage instead of refactoring it. Therefore, a proposal was written to compare the two options with a recommendation to rebuild the homepage, which was eventually approved. 
 
-With the approval, we began the start of the hompage rebuild project.
+While refactoring allows code changes to land in production sooner and give quicker results, in the long-term it will net the following benefits:
+- less dev time in untangling code 
+- less effort in pulling apart dependencies
+- avoid encountering unknowns that arise when refactoring
+
+By investing in a complete rebuild, we ensure the homepage will not only perform better but also be a make it easier for future development and feature expansion. 
+
+With the approval, we began the homepage rebuild project.
 
 ### Goal
 The main goal of the project was to rebuild the homepage by integrating Redux for state management and using diffable data source to allow the UI to respond better to changes in the underlying data. Previously, the homepage was reloading an unnecessary large amount of times which also caused poor user experience such as flickering icons and diffable data source solves this by making updates on differences. 
@@ -54,7 +61,7 @@ This project was in development from October 2024 until April 2024, but was not 
 
 ## Set up 
 During the initial stages of development, there were a couple of actions taken before pure code implementation.
-- **Estimation**: To better estimation the project, I created a spreadsheet that outline the different  Originally, the estimation provided with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
+- **Estimation**: To give better estimates on the project, I created a spreadsheet that outline the different tasks.  Originally, the estimation provided with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
 - **Epic**: Created separate tasks that needed to be complete for the project (Phase I, Phase II, nice to haves).
 - **Public channel**: Created a public communication channel so that the team and stakeholders can view any questions or status updates.
 - **Documentation**: Internal doc that was created (I reused some of that information here).
@@ -103,11 +110,6 @@ Throughout the project, there were many decisions made and changes to the homepa
 ## Testing the New Homepage
 As of May 30, the new homepage is still under experimentation and hidden behind a feature flag. It can be tested in our nightly builds, or you if you pull down the Firefox iOS repo  (https://github.com/mozilla-mobile/firefox-ios), the feature flag has been enabled in dev mode by default. See details on configuration in [homepageRebuildFeature.yaml](https://github.com/mozilla-mobile/firefox-ios/blob/8523c4d4697662405dd6e1eba2a05dab0bca89fa/firefox-ios/nimbus-features/homepageRebuildFeature.yaml#L3).
 
-## Final thoughts + wrap up
-Overall, I feel very fortunate to be able to work on this rewrite on a large feature using modern APIs and gained more confidence in working with our Redux architecture. Previously, I haven't really worked with the homepage. With the homepage rebuild, I avoided going too much out of scope, so some areas are not adopting Redux fully and still follow MVVM (wallpapers) and the cell UI + data layer was reused. Having this experience, I was able to solidify my knowledge in diffable datasource, compositional layout and improving our guidelines in Redux. 
-
-Leading this project gives me more confidence to take on bigger project. While I was able to break a complex project in to separate tasks, I would like to have worked more closely with other engineers throughout the project. I was grateful that my teammate has also helped me with wallpapers and scrolling logic when I was out of office. During the time where we were both discussing the project, I really enjoyed to conversations and pairing we had. 
-
 ### Checklist 
 While working on this project from end to end, I developed a checklist for myself that I hope to expand + continue for the future. Happy to hear any feedback on this list.
 
@@ -130,3 +132,8 @@ While working on this project from end to end, I developed a checklist for mysel
 - Finalize all documentation
 - Create QA Request
 - Experiment created (if needed)
+
+## Final thoughts + wrap up
+Overall, I feel very fortunate to be able to work on this rewrite on a large feature using modern APIs and gained more confidence in working with our Redux architecture. Previously, I haven't really worked with the homepage. With the homepage rebuild, I avoided going too much out of scope, so some areas are not adopting Redux fully and still follow MVVM (wallpapers) and the cell UI + data layer was reused. Having this experience, I was able to solidify my knowledge in diffable datasource, compositional layout and improving our guidelines in Redux. 
+
+Leading this project gives me more confidence to take on bigger project. While I was able to break a complex project in to separate tasks, I would like to have worked more closely with other engineers throughout the project. I was grateful that my teammate has also helped me with wallpapers and scrolling logic when I was out of office. During the time where we were both discussing the project, I really enjoyed to conversations and pairing we had. 
