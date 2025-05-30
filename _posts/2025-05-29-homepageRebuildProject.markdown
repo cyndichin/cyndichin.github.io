@@ -2,11 +2,9 @@
 layout: post
 title:  "Firefox iOS: Homepage Rebuild Project"
 date:   2024-05-29 7:08:25
-image:  '/images/ios/main.jpeg'
+image:  '/images/ios/firefox.png'
 tags:   [ios, swift, mobile, firefox, homepage]
 ---
-
-> Part of the Mobile Development series
 
 # Overview
 This blog post goes over the homepage rebuild project for the Firefox iOS app, which I led and was dev complete by release version 138. This post is mainly a self reflection of the project and I hope to share my thoughts for those who are interested.
