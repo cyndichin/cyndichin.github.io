@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Firefox iOS: Homepage Rebuild Project"
-date:   2024-05-29 7:08:25
+date:   2025-05-29 7:08:25
 image:  '/images/ios/firefox.png'
 tags:   [ios, swift, mobile, firefox, homepage]
 ---
@@ -13,7 +13,7 @@ This blog post goes over the homepage rebuild project for the Firefox iOS app, w
 Before I dive in, this post assumes some knowledge of how the Firefox homepage works from the user perspective. If you are unfamiliar with the homepage feature, there is a [brief wiki](https://github.com/mozilla-mobile/firefox-ios/wiki/Application-overview#firefox-homepage) that gives an overview of the homepage feature. You can read more details there and feel free to [reach out](https://cyndichin.github.io/contact/) to me if you have further questions! 
 
 ## Background Context
-**Proposal**
+### Proposal
 The homepage is one of the main features in the Firefox app and we want to contiously improve and enhance the experience for our users. There was a time when our homepage code caused app crashes every other week. To put out the fire, the team implemented temporary patches and band-aid fixes to help stabilize the application. However, these fixes were never intended to be long term solutions, as they make the code brittle and difficult to update. 
 
 Knowing that in the near future we want to experiment on the homepage, we took this opportunity to propose rebuilding the homepage instead of refactoring it. Therefore, a proposal was written to compare the two options with a recommendation to rebuild the homepage, which was eventually approved. While refactoring allows code changes to land in production sooner and give quicker results, in the long-term, the rebuilding option will save us from investing time in untangling code, pulling apart dependencies, and handling unknowns that arise when refactoring. By investing in a complete rebuild, we ensure the homepage will not only perform better but also be a make it easier for future development and feature expansion. 
@@ -51,11 +51,12 @@ More maintainable and scalable homepage architecture for future development
 This project was in development from October 2024 until April 2024, but was not worked 100% capacity (i.e. vacation time and work weeks). 
 
 ## Set up 
-- Estimation: To better estimation the project, I created a spreadsheet that outline the different  Originally, the estimation provided with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
-- Epic: Created separate tasks that needed to be complete for the project (Phase I, Phase II, nice to haves).
-- Public channel: Created a public communication channel so that the team and stakeholders can view any questions or status updates.
-- Documentation: Internal doc that was created (I reused some of that information here).
-- Architecture Diagram: Created initial diagram to confirm with the team on the architecture before implementing. Updated and used this diagram to perform handoff to homepage engineers that will be working on the new experimentation.
+During the initial stages of development, there were a couple of actions taken before pure code implementation.
+- **Estimation**: To better estimation the project, I created a spreadsheet that outline the different  Originally, the estimation provided with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
+- **Epic**: Created separate tasks that needed to be complete for the project (Phase I, Phase II, nice to haves).
+- **Public channel**: Created a public communication channel so that the team and stakeholders can view any questions or status updates.
+- **Documentation**: Internal doc that was created (I reused some of that information here).
+- **Architecture Diagram**: Created initial diagram to confirm with the team on the architecture before implementing. Updated and used this diagram to perform handoff to homepage engineers that will be working on the new experimentation.
 
 ![Architecture Diagram](/images/ios/homepageRebuildProject/01-diagram.png)
 
@@ -64,12 +65,23 @@ The homepage rebuild project has been implemented and dev complete (aside from s
 
 ![Homepage Rebuild Directory](/images/ios/homepageRebuildProject/02-directory.png)
 
-**Phase Breakdown**
+### Phase Breakdown
 Due to the large scope of the homepage, the rebuild project was broken up into two phases. The phases were also a way to help QA test and familiarize with the homepage rebuild project without waiting until full completion. This would help catch issues earlier if needed.
 
-**Phase I** - Create a foundation for the homepage using diffable datasource and compositional layout and start the Redux foundation for the following subsections: Top Sites Section, Pocket Section, Customize Homepage. Also, includes wallpaper, context menu, scrolling logic.
+**Phase I** - Create a foundation for the homepage using diffable datasource and compositional layout and start the Redux foundation for the following subsections: 
+- Header
+- Top Sites Section
+- Pocket Section
+- Customize Homepage
 
-**Phase II** - Continue to rebuild the other homepage subsections: Messaging, Bookmarks Section, Jump Back In. Also, includes adding telemetry + adhering to our new telemetry naming guidelines.
+Also, includes wallpaper, context menu, scrolling logic.
+
+**Phase II** - Continue to rebuild the other homepage subsections: 
+- Messaging
+- Bookmarks Section
+- Jump Back In
+
+Also, includes adding telemetry + adhering to our new telemetry naming guidelines.
 
 I foresaw that top sites and jump back in section would take the most time so I made sure to split the two in diferent phases to balance out the timeline. To help in keeping tracking with my progress, I would create a simply spreadsheet shown below, which really helps me when working on a self-led project.
 
@@ -98,21 +110,21 @@ Leading this project gives me more confidence to take on bigger project. While I
 While working on this project from end to end, I developed a checklist for myself that I hope to expand + continue for the future. Happy to hear any feedback on this list.
 
 **Initial Project Assignment**
-[ ] Confirm design finalize (+ went through design system review)
-[ ] Confirm telemetry requirement defined
-[ ] Create project documentation (notes / feature overview)
-[ ] Create public communication channel
-[ ] Create spike + develop initial architecture diagram
-[ ] Create tickets in epic
+- [ ] Confirm design finalize (+ went through design system review)
+- [ ] Confirm telemetry requirement defined
+- [ ] Create project documentation (notes / feature overview)
+- [ ] Create public communication channel
+- [ ] Create spike + develop initial architecture diagram
+- [ ] Create tickets in epic
 
 **Project Implementation**
-[ ] Create spreadsheet with timeline + delegate tasks
-[ ] Add unit tests / UI tests
-[ ] Accessibility review
-[ ] Post weekly status on Epic ticket or public channel
-[ ] Confirm feature works in all themes / devices (iPad, iPhone, split view, multitasking)
+- [ ] Create spreadsheet with timeline + delegate tasks
+- [ ] Add unit tests / UI tests
+- [ ] Accessibility review
+- [ ] Post weekly status on Epic ticket or public channel
+- [ ] Confirm feature works in all themes / devices (iPad, iPhone, split view, multitasking)
 
 **Project Completion**
-[ ] Finalize all documentation
-[ ] Create QA Request
-[ ] Experiment created (if needed)
+- [ ] Finalize all documentation
+- [ ] Create QA Request
+- [ ] Experiment created (if needed)
