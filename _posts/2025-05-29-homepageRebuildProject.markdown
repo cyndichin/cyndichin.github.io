@@ -12,6 +12,8 @@ This blog post goes over the homepage rebuild project for the Firefox iOS app, w
 ## Homepage Feature
 Before I dive in, this post assumes some knowledge of how the Firefox homepage works from the user perspective. If you are unfamiliar with the homepage feature, there is a [brief wiki](https://github.com/mozilla-mobile/firefox-ios/wiki/Application-overview#firefox-homepage) that gives an overview of the homepage feature. You can read more details there and feel free to [reach out](https://cyndichin.github.io/contact/) to me if you have further questions! 
 
+![Homepage Feature](/images/ios/homepageRebuildProject/04-feature.png)
+
 ## Background Context
 ### Proposal
 The homepage is one of the main features in the Firefox app and we want to contiously improve and enhance the experience for our users. There was a time when our homepage code caused app crashes every other week. To put out the fire, the team implemented temporary patches and band-aid fixes to help stabilize the application. However, these fixes were never intended to be long term solutions, as they make the code brittle and difficult to update. 
