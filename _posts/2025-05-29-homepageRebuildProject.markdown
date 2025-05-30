@@ -95,7 +95,7 @@ The biggest blocker of this project was having undefined telemetry guidelines. W
 ### Writing unit tests
 Since the project was an opportunity to rewrite the homepage from the ground up. One of the issues that the old homepage faced was flaky unit tests. Therefore, I wanted to make sure that I was developing with a TDD mindset. This prompted the wiki documentation - [Unit tests guidelines](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines/_history).
 
-The homepage project also led to developing unit tests for middlewares. This prompted creating the StoreUtility class and thanks to the collaboration with my team members, we also developed a better mock for testing middlewares. Our guidelines in testing with store is documented in this [wiki](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines#mocking-the-store). The issues with testing our Redux architecture is that our store and its middlewares are global and cause tests to be less isolated or testable. As we are moving forward to using a Redux architecture through the app, we are still learning what works best for our project. With that, we are still refining unit tests, such as needing to modify having the global middlewares set for the store. See more details in this [PR]. 
+The homepage project also led to developing unit tests for middlewares. This prompted creating the [StoreTestUtility](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/firefox-ios-tests/Tests/ClientTests/Utils/StoreTestUtility.swift) class and thanks to the collaboration with my team members, we also developed a better mock for testing middlewares. Our guidelines in testing with store is documented in this [wiki](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines#mocking-the-store). The issues with testing our Redux architecture is that our store and its middlewares are global and cause tests to be less isolated or testable. As we are moving forward to using a Redux architecture through the app, we are still learning what works best for our project. With that, we are still refining unit tests, such as needing to modify having the global middlewares set for the store. See more details in this [PR](https://github.com/mozilla-mobile/firefox-ios/pull/26926). 
 
 ### Decision Table
 Throughout the project, there were many decisions made and changes to the homepage as well as clarification as what we wanted. Later in the development, I decided to create the decision table in the ongoing project document, but it would have been helpful to make this table earlier.
@@ -112,21 +112,21 @@ Leading this project gives me more confidence to take on bigger project. While I
 While working on this project from end to end, I developed a checklist for myself that I hope to expand + continue for the future. Happy to hear any feedback on this list.
 
 **Initial Project Assignment**
-- [ ] Confirm design finalize (+ went through design system review)
-- [ ] Confirm telemetry requirement defined
-- [ ] Create project documentation (notes / feature overview)
-- [ ] Create public communication channel
-- [ ] Create spike + develop initial architecture diagram
-- [ ] Create tickets in epic
+- Confirm design finalize (+ went through design system review)
+- Confirm telemetry requirement defined
+- Create project documentation (notes / feature overview)
+- Create public communication channel
+- Create spike + develop initial architecture diagram
+- Create tickets in epic
 
 **Project Implementation**
-- [ ] Create spreadsheet with timeline + delegate tasks
-- [ ] Add unit tests / UI tests
-- [ ] Accessibility review
-- [ ] Post weekly status on Epic ticket or public channel
-- [ ] Confirm feature works in all themes / devices (iPad, iPhone, split view, multitasking)
+- Create spreadsheet with timeline + delegate tasks
+- Add unit tests / UI tests
+- Accessibility review
+- Post weekly status on Epic ticket or public channel
+- Confirm feature works in all themes / devices (iPad, iPhone, split view, multitasking)
 
 **Project Completion**
-- [ ] Finalize all documentation
-- [ ] Create QA Request
-- [ ] Experiment created (if needed)
+- Finalize all documentation
+- Create QA Request
+- Experiment created (if needed)
