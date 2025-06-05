@@ -22,32 +22,35 @@ One common crash that the homepage was facing was caused by the collection view 
 
 Knowing that in the near future we want to experiment on the homepage, we took this opportunity to propose rebuilding the homepage instead of refactoring it. Therefore, a proposal was written to compare the two options with a recommendation to rebuild the homepage, which was eventually approved. 
 
-While refactoring allows code changes to land in production sooner and give quicker results, in the long-term it will net the following benefits:
+In the long-term, rebuilding will achieve the following benefits compared to refactoring:
 - less dev time in untangling code 
 - less effort in pulling apart dependencies
 - avoid encountering unknowns that arise when refactoring
 
-By investing in a complete rebuild, we ensure the homepage will not only perform better but also be a make it easier for future development and feature expansion. 
+By investing in a complete rebuild, we ensure the homepage will not only perform better, but also make it easier for future development and feature expansion. 
 
 With the approval, we began the homepage rebuild project.
 
 ### Goal
-The main goal of the project was to rebuild the homepage by integrating Redux for state management and using diffable data source to allow the UI to respond better to changes in the underlying data. Previously, the homepage was reloading an unnecessary large amount of times which also caused poor user experience such as flickering icons and diffable data source solves this by making updates on differences. 
+The main goal of the project was to rebuild the homepage by integrating Redux for state management and using diffable data source to allow the UI to respond better to changes in the underlying data. Previously, the homepage was reloading an unnecessary large amount of times which also caused poor user experience such as flickering icons and diffable data source solves this by making updates on the differences. 
 
 There were 3 main key objectives that were listed out for this project:
 
 **A. Centralized State Management with Redux**
+
 Implement Redux architecture to centralize and standardize state management across the homepage. Each section in the homepage will have itself contained Redux components if needed. Redux will provide a single source of truth, making it easier to track, debug, and manage state transitions for each homepage section. This should significantly reduce the likelihood of state-related bugs, eliminate some usage of delegates and provide a single directional flow of information.
 
 An example of a section using Redux architecture:
 The Top Sites section will have its own state [(TopSitesSectionState)](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/Client/Frontend/Home/Homepage%20Rebuild/TopSites/TopSitesSectionState.swift), action [(TopSitesAction)](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/Client/Frontend/Home/Homepage%20Rebuild/TopSites/TopSitesAction.swift) and middleware [(TopSitesMiddleware)](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/Client/Frontend/Home/Homepage%20Rebuild/TopSites/TopSitesMiddleware.swift).
 
 **B. Enhanced UI Updates with Diffable Data Source**
+
 Integrate diffable data source to manage dynamic content updates in the UI. This will allow the system to efficiently handle changes to the data model, such as insertions, deletions, and reordering of elements, without requiring full updates in reloading the whole collection view, which we are doing currently. This will lead to smoother and more performant UI transitions and less crashes in terms of inconsistencies between data and UI.
 
 This implementation can be found in [HomepageDiffableDataSource](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/Client/Frontend/Home/Homepage%20Rebuild/HomepageDiffableDataSource.swift).
 
 **C. Improved Stability, Reliability + Maintainability**
+
 The combination of Redux and diffable data source is expected to enhance the stability and reliability of the homepage. By reducing the complexity of state and UI management, we aim to eliminate crashes and other issues that have previously affected the user experience. The improved architecture will also make the codebase more robust and easier to extend in the future. The goal is to facilitate easier onboarding to our homepage code, faster development cycles, and more straightforward debugging and feature enhancements.
 
 From testing, there have been minimal bugs, but as of writing this blog, we are still running the experiment and confirming with metrics is still to be determined. 
@@ -56,6 +59,7 @@ From testing, there have been minimal bugs, but as of writing this blog, we are 
 More maintainable and scalable homepage architecture for future development
 - Reduced instances of crashes
 - Improved application stability
+- Ease of development and iteration
 - Enhance user experience through smoother + more responsive UI updates
 
 # Project Development 
@@ -63,11 +67,11 @@ This project was in development from October 2024 until April 2024, but was not 
 
 ## Set up 
 During the initial stages of development, there were a couple of actions taken before pure code implementation.
-- **Estimation**: To give better estimates on the project, I created a spreadsheet that outline the different tasks.  Originally, the estimation provided with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
-- **Epic**: Created separate tasks that needed to be complete for the project (Phase I, Phase II, nice to haves).
+- **Estimation**: To give better estimates on the project, I created a spreadsheet that outline the different tasks.  Originally, the estimation provided was with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
+- **Epic**: Created separate tasks that needed to be complete for the project.
 - **Public channel**: Created a public communication channel so that the team and stakeholders can view any questions or status updates.
 - **Documentation**: Internal doc that was created (I reused some of that information here).
-- **Architecture Diagram**: Created initial diagram to confirm with the team on the architecture before implementing. Updated and used this diagram to perform handoff to homepage engineers that will be working on the new experimentation.
+- **Architecture Diagram**: Created initial diagram to confirm with the team on the architecture before implementing. Updated and used this diagram to perform handoff to engineers that will be working on the new homepage features.
 
 ![Architecture Diagram](/images/ios/homepageRebuildProject/01-diagram.png)
 
