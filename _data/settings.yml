@@ -93,7 +93,7 @@ footer:
 
     # Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
     # Other icons can be found at https://ionicons.com/v4/
-  description: Cyndi Chin works towards building great customer-facing mobile apps to positively impact lives. She is currently an iOS Software Engineer at CNBC. She looks forward to sharing her lessons learned and experiences with others.
+  description: Cyndi Chin works towards building great customer-facing mobile apps to positively impact lives. She is currently an iOS Software Engineer at Mozilla. She looks forward to sharing her lessons learned and experiences with others.
 
 #-------------------------------
 # Contact Settings

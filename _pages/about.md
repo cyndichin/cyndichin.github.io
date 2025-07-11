@@ -25,7 +25,8 @@ Overall, I am passionate about lifelong learning and I am constantly improving t
 <div class="table-container">
   <table>
     <tr><th>Duration</th><th>Position</th><th>Company</th></tr>
-    <tr><td>Apr 2022 - Present</td><td>iOS Software Engineer</td><td>Mozilla</td></tr>
+    <tr><td>Mar 2025 - Present</td><td>iOS Senior Software Engineer</td><td>Mozilla</td></tr>
+    <tr><td>Apr 2022 - Mar 2025</td><td>iOS Software Engineer</td><td>Mozilla</td></tr>
     <tr><td>Jul 2020 - Apr 2022</td><td>iOS Software Engineer</td><td>CNBC</td></tr>
     <tr><td>Jul 2018 - Jul 2020</td><td>Media Tech Associate</td><td>NBCUniversal</td></tr>
     <tr><td>Feb 2017 - Jun 2018</td><td>Security Support Engineer</td><td>Microsoft</td></tr>
