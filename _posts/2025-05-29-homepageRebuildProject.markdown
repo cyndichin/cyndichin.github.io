@@ -67,7 +67,7 @@ More maintainable and scalable homepage architecture for future development
 # Project Development 
 This project was in development from October 2024 until April 2024, but was not worked 100% capacity (i.e. vacation time and work weeks). 
 
-## Set up 
+## Set Up 
 During the initial stages of development, there were a couple of actions taken before pure code implementation.
 - **Estimation**: To give better estimates on the project, I created a spreadsheet that outline the different tasks.  Originally, the estimation provided was with two full time engineers, but due to re-prioritization it became mainly one engineer at a time.
 - **Epic**: Created separate tasks that needed to be complete for the project.
@@ -85,7 +85,7 @@ The homepage rebuild project has been implemented and dev complete (aside from s
 ### Phase Breakdown
 Due to the large scope of the homepage, the rebuild project was broken up into two phases. The phases were also a way to help QA test and familiarize with the homepage rebuild project without waiting until full completion. This would help catch issues earlier if needed.
 
-**Phase I** - Create a foundation for the homepage using diffable datasource and compositional layout and start the Redux foundation for the following subsections: 
+**Phase I** - Create a foundation for the homepage using diffable data source and compositional layout and start the Redux foundation for the following subsections: 
 - Header
 - Top Sites Section
 - Pocket Section
@@ -100,15 +100,15 @@ Also, includes wallpaper, context menu, scrolling logic.
 
 Also, includes adding telemetry + adhering to our new telemetry naming guidelines.
 
-I foresaw that top sites and jump back in section would take the most time so I made sure to split the two in diferent phases to balance out the timeline. To help in keeping tracking with my progress, I would create a simply spreadsheet shown below, which really helps me when working on a self-led project.
+I foresaw that top sites and jump back in section would take the most time so I made sure to split the two in different phases to balance out the timeline. To help in keeping tracking with my progress, I would create a simple spreadsheet shown below, which really helps me when working on a self-led project.
 
 ![Progress Tracker](/images/ios/homepageRebuildProject/03-tracker.png)
 
-### New telemetry guidelines
-The biggest blocker of this project was having undefined telemetry guidelines. When we received the guideline to keep the telemetry consistent with previous implementation, it was discovered that there some flaws in the existing implemention. After discussion and review, we decided to implement new telemetry that adhere to our new telemetry naming guidelines (another initiative on the team), while keeping a few the same. Going forward, having telemetry requirements upfront and defined earlier would've helped moved the project more quickly.
+### New Telemetry Guidelines
+The biggest blocker of this project was having undefined telemetry guidelines. When we received the guideline to keep the telemetry consistent with previous implementation, it was discovered that there some flaws in the existing implemention. After discussion and review, we decided to implement new telemetry that adheres to our new telemetry naming guidelines (another initiative on the team), while keeping a few the same. Going forward, having telemetry requirements upfront and defined earlier would've helped move the project more quickly.
 
-### Writing unit tests
-Since the project was an opportunity to rewrite the homepage from the ground up. One of the issues that the old homepage faced was flaky unit tests. Therefore, I wanted to make sure that I was developing with a TDD mindset. This prompted the wiki documentation - [Unit tests guidelines](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines/_history).
+### Writing Unit Tests
+One of the issues that the old homepage faced was flaky unit tests. Since the project was an opportunity to rewrite the homepage from the ground up, I wanted to make sure that I was developing with a TDD mindset and created solid tests. This prompted the wiki documentation - [Unit tests guidelines](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines).
 
 The homepage project also led to developing unit tests for middlewares. This prompted creating the [StoreTestUtility](https://github.com/mozilla-mobile/firefox-ios/blob/main/firefox-ios/firefox-ios-tests/Tests/ClientTests/Utils/StoreTestUtility.swift) class and thanks to the collaboration with my team members, we also developed a better mock for testing middlewares. Our guidelines in testing with store is documented in this [wiki](https://github.com/mozilla-mobile/firefox-ios/wiki/Unit-Tests-Guidelines#mocking-the-store). The issues with testing our Redux architecture is that our store and its middlewares are global and cause tests to be less isolated or testable. As we are moving forward to using a Redux architecture through the app, we are still learning what works best for our project. With that, we are still refining unit tests, such as needing to modify having the global middlewares set for the store. See more details in this [PR](https://github.com/mozilla-mobile/firefox-ios/pull/26926). 
 
@@ -122,8 +122,8 @@ As of May 30, the new homepage is still under experimentation and hidden behind 
 While working on this project from end to end, I developed a checklist for myself that I hope to expand + continue for the future. Happy to hear any feedback on this list.
 
 **Initial Project Assignment**
-- Confirm design finalize (+ went through design system review)
-- Confirm telemetry requirement defined
+- Confirm design is finalized (+ went through design system review)
+- Confirm telemetry requirements defined
 - Create project documentation (notes / feature overview)
 - Create public communication channel
 - Create spike + develop initial architecture diagram
@@ -141,7 +141,7 @@ While working on this project from end to end, I developed a checklist for mysel
 - Create QA Request
 - Experiment created (if needed)
 
-## Final thoughts + wrap up
-Overall, I feel very fortunate to be able to work on this rewrite on a large feature using modern APIs and gained more confidence in working with our Redux architecture. Previously, I haven't really worked with the homepage. With the homepage rebuild, I avoided going too much out of scope, so some areas are not adopting Redux fully and still follow MVVM (wallpapers) and the cell UI + data layer was reused. Having this experience, I was able to solidify my knowledge in diffable datasource, compositional layout and improving our guidelines in Redux. 
+## Final Thoughts + Wrap Up
+Overall, I feel very fortunate to be able to work on this rewrite on a large feature using modern APIs and gained more confidence in working with our Redux architecture. Previously, I haven't really worked with the homepage. With the homepage rebuild, I avoided going too much out of scope, so some areas are not adopting Redux fully and still follow MVVM (wallpapers) and the cell UI + data layer was reused. Having this experience, I was able to solidify my knowledge in diffable data source, compositional layout and improving our guidelines in Redux. 
 
-Leading this project gives me more confidence to take on bigger project. While I was able to break a complex project in to separate tasks, I would like to have worked more closely with other engineers throughout the project. I was grateful that my teammate has also helped me with wallpapers and scrolling logic when I was out of office. During the time where we were both discussing the project, I really enjoyed to conversations and pairing we had. 
+Leading this project gives me more confidence to take on bigger projects. While I was able to break a complex project into separate tasks, I would like to have worked more closely with other engineers throughout the project. I was grateful that my teammate has also helped me with wallpapers and scrolling logic when I was out of office. During the time where we were both discussing the project, I really enjoyed to conversations and pairing we had. 
